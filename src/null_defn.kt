@@ -14,4 +14,6 @@ fun main(args: Array<String>){
     println(name?.length)// ?. safe accessing operator
     name = null // here no error will be displayed to the variable name
     println("${name}") // but you cant check the length property here
+
+
 }
