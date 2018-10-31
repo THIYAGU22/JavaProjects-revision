@@ -1,6 +1,5 @@
 class getter{
     var age : Int = 0
-
     get(){
         return field+2 //field is age variable
     }
@@ -12,8 +11,6 @@ class getter{
     fun printInfo(){
         println("the user age is $age years old")
     }
-
-
 }
 fun main (args:Array<String>){
     val obj = getter()
