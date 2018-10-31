@@ -1,5 +1,7 @@
 class user{
     var age : Int = 0
+
+
     set(value) {
         if(value>0){ // if the value is negative it will take it as zero
             field = value  // else it will update the value to field which is nothing but your local variable age
